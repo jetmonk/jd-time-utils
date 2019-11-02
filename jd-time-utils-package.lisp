@@ -28,7 +28,8 @@
    ;;    rather than local, and daylight savings is not returned
    #:encode-universal-time/extended
    #:decode-universal-time/extended
-   
+
+   #:build-date-time-struct-from-ut
    #:change-date-time-timezone
    #:parse-date-time-string
    
