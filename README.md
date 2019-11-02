@@ -152,7 +152,7 @@ Using a stated format :MM-DD-YY, and turning off general formats
 Convert 1899-12-31T23:59:59 to a structure
 
 ````
- (jd-time-utils::build-date-time-struct-from-ut 
+ (jd-time-utils:build-date-time-struct-from-ut 
           -1 ;; one second before Lisp era
 	  :timezone 10)
  ==>	  
