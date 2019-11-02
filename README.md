@@ -93,7 +93,7 @@ Using standard formats borrowed from CL-DATE-TIME-PARSER
 	  :day-of-week 6
 	  :ut 2414295720
 	  :timezone 0  ;; see :OUTPUT-TIMEZONE 
-	  :fractional-year 1976.5061133911404d0
+	  :float-year 1976.5061133911404d0
 	  ;; days, seconds, and nanoseconds since Julian January 1, 4713 BC
 	  :julian-time #S(jd-time-utils:julian-time
                           :day 2442964
@@ -118,7 +118,7 @@ Parse in a different timezone (EST); note default conversion to timezone 0
 	  :day-of-week 6
 	  :ut 2414313720
 	  :timezone 0 ;; timezone is still zero
-	  :fractional-year 1976.5066826078983d0
+	  :float-year 1976.5066826078983d0
 	  :julian-time #S(jd-time-utils:julian-time
 	                  :day 2442964
 	                  :second 38520
@@ -142,7 +142,7 @@ Using a stated format :MM-DD-YY, and turning off general formats
       :day-of-week 0
       :ut 2414361600
       :timezone 0
-      :fractional-year 1976.5081967213114d0
+      :float-year 1976.5081967213114d0
       :julian-time #S(jd-time-utils:julian-time
                       :day 2442965
                       :second 0
@@ -167,7 +167,7 @@ Convert 1899-12-31T23:59:59 to a structure
       :day-of-week 6
       :ut -1 
       :timezone 10 ;; new output timezone (10 zones west of meridian)
-      :fractional-year 1899.9999999682902d0
+      :float-year 1899.9999999682902d0
       :julian-time #S(jd-time-utils:julian-time
                       :day 2415020
                       :second 86399
