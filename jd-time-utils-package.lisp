@@ -7,7 +7,7 @@
    #:date-time-year #:date-time-month #:date-time-day
    #:date-time-hour #:date-time-minute #:date-time-second
    #:date-time-fractional-second #:date-time-day-of-week
-   #:date-time-ut #:date-time-floating-year
+   #:date-time-ut #:date-time-float-year
    #:julian-time #:julian-time-p
    #:julian-time-day   #:julian-time-second #:julian-time-nanosecond
    ;; comparisons

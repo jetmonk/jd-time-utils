@@ -68,7 +68,7 @@
      :timezone (float timezone 1.0)
      :ut (date-time-ut date-time)
      :julian-time (date-time-julian-time date-time)
-     :float-year (date-time-fractional-year date-time))))
+     :float-year (date-time-float-year date-time))))
 
 
 
